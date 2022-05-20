@@ -1,19 +1,18 @@
 <template>
   <div   id="app">
     <header>
-      <nav class="navbar navbar-light bg-dark mb-5">
+      <nav class="navbar navbar-light bg-dark mb-2">
         <div class="container-fluid">
         <a class="lk" href="">
-  <span class="navbar-brand mb-0 h1 text-light">Inicio</span>
+  <span class="navbar-brand mb-0 h1 text-light">Menu</span>
   </a>
   </div>
       </nav>
     </header>
 
-    <router-view/>
-
-    <footer>
-      <nav class=" bg-dark mt-5 static-bottom">
+<router-view />
+<footer>
+      <nav class=" bg-dark mt-2 static-bottom">
         <div class="container-fluid"> <a class="lk" href="">
   <span class="navbar-brand mb-0 h1 text-light">Desenvolvido por Rodrigo Melo</span>
   </a>
