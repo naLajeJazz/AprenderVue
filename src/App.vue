@@ -1,13 +1,25 @@
 <template>
   <div   id="app">
-    <nav class="navbar navbar-light bg-dark mb-3">
-      <div class="container-fluid">
-      <a class="lk" href="">
-<span class="navbar-brand mb-0 h1 text-light">Inicio</span>
-</a>
-</div>
-    </nav>
+    <header>
+      <nav class="navbar navbar-light bg-dark mb-5">
+        <div class="container-fluid">
+        <a class="lk" href="">
+  <span class="navbar-brand mb-0 h1 text-light">Inicio</span>
+  </a>
+  </div>
+      </nav>
+    </header>
     <router-view/>
+
+    <footer>
+      <nav class=" bg-dark mt-5 static-bottom">
+        <div class="container-fluid">
+        <a class="lk" href="">
+  <span class="navbar-brand mb-0 h1 text-light">Desenvolvido por Rodrigo Melo</span>
+  </a>
+  </div>
+      </nav>
+    </footer>
   </div>
 </template>
 
@@ -32,5 +44,8 @@ body{
 }
 .lk{
   text-decoration: none;
+}
+footer{
+  width: 100%;
 }
 </style>
