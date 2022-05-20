@@ -9,12 +9,12 @@
   </div>
       </nav>
     </header>
+
     <router-view/>
 
     <footer>
       <nav class=" bg-dark mt-5 static-bottom">
-        <div class="container-fluid">
-        <a class="lk" href="">
+        <div class="container-fluid"> <a class="lk" href="">
   <span class="navbar-brand mb-0 h1 text-light">Desenvolvido por Rodrigo Melo</span>
   </a>
   </div>
@@ -47,5 +47,8 @@ body{
 }
 footer{
   width: 100%;
+}
+.imag{
+  width: 2em;
 }
 </style>
